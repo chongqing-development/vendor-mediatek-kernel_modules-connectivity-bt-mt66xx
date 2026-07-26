@@ -2,6 +2,9 @@
 # Bluetooth character device driver
 
 ###############################################################################
+export BT_PLATFORM=connac1x
+export LOG_TAG=[BT_Drv][wmt]
+
 # Necessary Check
 
 ifneq ($(KERNEL_OUT),)
